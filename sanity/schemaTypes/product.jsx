@@ -30,7 +30,7 @@ export default {
       of: [{type: 'image'}],
     },
     {
-      name: 'categorie',
+      name: 'categories',
       title: 'Categories',
       type: 'array',
       of: [{type: 'reference', to: {type: 'category'}}],
